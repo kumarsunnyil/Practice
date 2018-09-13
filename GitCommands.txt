@@ -17,3 +17,5 @@ git checkout MyBranch 			-> switch branch command
 Note: changes made in this branch will not reflect in the main branch
 git merge SourceBranch
 git -a -m "changes made to the text" -> will be automatically staged
+git stash
+git stash apply
