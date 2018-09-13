@@ -1,0 +1,19 @@
+## git reset --hard origin/master
+
+
+git init 						-> to initialize a git folder
+git status 						-> gives us a current state of the repository at any given point of time / list all untracked and 										   tracked files
+git add filename  				-> to stage a file for commit
+git commit / -m "message" 		-> is used to commit a snapshot of the staging directory to the repositories commit history
+git log 						-> list out the details of commit history, author, date.
+
+git add . 						-> stage all at once / includes log files which we don't need
+git add *.html 					-> stage all html files at once 
+.gitignore
+branch 							-> allows you to work on a copy in the main line without affecting the main line directly, available in all 										   version controls 
+git branch MyBranch				-> creates a new branch with the name MyBranch
+git checkout -b NewBranch		-> creates a new branch with the name NewBranch
+git checkout MyBranch 			-> switch branch command
+Note: changes made in this branch will not reflect in the main branch
+git merge SourceBranch
+git -a -m "changes made to the text" -> will be automatically staged
